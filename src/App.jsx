@@ -1,30 +1,18 @@
-import { useState } from 'react'
+import Layout from "./Layout";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-        </a>
-        <a href="https://react.dev" target="_blank">
-        </a>
+      <div className="fixed left-0 top-0 h-full w-full">
+        <div className="absolute inset-0 -z-10 min-h-full w-full bg-gray-50 bg-[radial-gradient(#D6D3D1_1px,transparent_1px)] text-zinc-950 [background-size:16px_16px]"></div>
+        <div className="absolute bottom-auto left-auto right-0 top-0 -z-10 h-[500px] w-[500px] -translate-x-[20%] translate-y-[10%] rounded-full bg-cyan-500 opacity-20 blur-[90px]"></div>
+        <div className="absolute bottom-auto left-auto right-0 top-0 -z-10 h-[500px] w-[500px] -translate-x-[70%] translate-y-[50%] rounded-full bg-indigo-500 opacity-20 blur-[90px]"></div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className="relative">
+        <Layout />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
