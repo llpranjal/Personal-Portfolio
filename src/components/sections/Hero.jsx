@@ -20,8 +20,8 @@ export default function Hero() {
     <section className="flex h-screen items-center justify-center">
       <div className="mb-16 flex w-fit flex-col-reverse items-center md:flex-row">
         <div className="text-center md:text-start">
-          <h1 className="font-mono text-7xl font-extrabold md:text-8xl lg:text-9xl">Oslo418</h1>
-          <p className="pl-3 text-lg font-semibold md:text-2xl">Cyber enthusiast, devweb on track !</p>
+          <h1 className="font-mono text-7xl font-extrabold md:text-8xl lg:text-9xl">Pranjal</h1>
+          <p className="pl-3 text-lg font-semibold md:text-2xl">welcome to my page! </p>
         </div>
         <div className="max-h-fit max-w-fit">
           <svg className="=w-72 h-72 fill-transparent stroke-zinc-950 stroke-[10px] lg:h-80 lg:w-80" version="1.1" viewBox="0 0 350 350">
