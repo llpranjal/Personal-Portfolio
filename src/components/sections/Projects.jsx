@@ -4,6 +4,7 @@ import nihImage from "../../images/nih.png";
 import portfolioImage from "../../images/portfolio.png";
 import notesImage from "../../images/notes.jpeg";
 import facialImage from "../../images/facial.png";
+import catImage from "../../images/blawg.png";
 
 const projectsData = [
   {
@@ -34,25 +35,35 @@ const projectsData = [
     link: "https://github.com/llpranjal/Personal-Portfolio",
     card_img_src: portfolioImage,
     type: "Website",
-    category: "Experience",
-  },
-  {
-    id: "4",
-    title: "FlowNote",
-    short_desc: "Full-stack note-taking app with UX in mind.",
-    stacks: ["react", "type-script", "tailwind-css", "postgresql"],
-    link: "https://github.com/llpranjal/notes-app",
-    card_img_src: notesImage,
-    type: "Website",
     category: "Side Projects",
   },
   {
-    id: "5",
+    id: "4",
     title: "AI Facial Attendance App",
     short_desc: "Recognize faces and mark attendance.",
     stacks: ["tensorflow", "opencv", "keras"],
     link: "https://github.com/llpranjal/Facial-Attendance",
     card_img_src: facialImage,
+    type: "Website",
+    category: "Side Projects",
+  },
+  {
+    id: "5",
+    title: "Cat Project",
+    short_desc: "A fun cat generator(what else do you need?).",
+    stacks: ["react", "css", "apis"],
+    link: "https://github.com/llpranjal/Cat-Generator",
+    card_img_src: catImage,
+    type: "Website",
+    category: "Side Projects",
+  },
+  {
+    id: "6",
+    title: "FlowNote",
+    short_desc: "Full-stack note-taking app with UX in mind.",
+    stacks: ["react", "type-script", "tailwind-css", "postgresql"],
+    link: "https://github.com/llpranjal/notes-app",
+    card_img_src: notesImage,
     type: "Website",
     category: "Side Projects",
   },
