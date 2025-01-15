@@ -26,21 +26,16 @@ export default function Stacks() {
   };
 
   return (
-    <section className="flex w-full justify-center py-32 bg-transparent">
+    <section className="flex w-full justify-center bg-transparent py-32">
       <div className="w-full max-w-screen-xl px-4">
-        <h3 className="mb-12 text-center font-mono text-5xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-105">
-          Stacks/Tools
-        </h3>
+        <h3 className="mb-12 text-center font-mono text-6xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-110">Stacks/Tools</h3>
         <div className="flex flex-col items-center gap-6 md:gap-8">
           {Object.keys(stacks).map((category) => (
-            <div
-              key={category}
-              className="flex flex-wrap justify-center gap-4 md:justify-start md:gap-6"
-            >
+            <div key={category} className="flex flex-wrap justify-center gap-4 md:justify-start md:gap-6">
               {stacks[category].map(({ name, icon }) => (
                 <div
                   key={name}
-                  className="flex select-none items-center gap-2 rounded-md bg-white border border-black px-3 py-2 text-center text-lg font-medium text-black shadow-md transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:border-2"
+                  className="flex transform select-none items-center gap-2 rounded-md border border-black bg-white px-3 py-2 text-center text-lg font-medium text-black shadow-md transition-all duration-300 hover:-translate-y-1 hover:scale-105 hover:border-2 hover:shadow-lg"
                 >
                   {icon}
                   <span>{name}</span>
