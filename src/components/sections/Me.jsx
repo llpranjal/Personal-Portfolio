@@ -6,19 +6,19 @@ export default function Me() {
       </div>
       <div className="flex flex-col flex-wrap items-center justify-evenly gap-16 md:flex-row">
         <a href="https://www.chess.com/member/frostbad/" target="_blank" rel="noopener noreferrer" className="group relative h-fit duration-300 md:hover:scale-100">
-          <img className="w-60 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-80" src="src/images/chess.jpg" alt="chess" />
+          <img className="w-60 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-80" src="/Personal-Portfolio/src/images/chess.jpg" alt="chess" />
           <span className="absolute bottom-4 left-4 mr-2 rounded-md bg-black bg-opacity-70 px-4 py-2 text-white shadow-lg">
             <p className="text-sm md:text-base">See how my recent chess game have gone (not good)</p>
           </span>
         </a>
         <a href="https://www.google.com/search?q=boston+celtics" target="_blank" rel="noopener noreferrer" className="group relative h-fit duration-300 md:hover:scale-100">
-          <img className="w-110 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="src/images/cel.png" alt="basketball" />
+          <img className="w-110 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="/Personal-Portfolio/src/images/cel.png" alt="basketball" />
           <span className="absolute bottom-4 left-4 mr-2 rounded-md bg-black bg-opacity-70 px-4 py-2 text-white shadow-lg">
             <p className="text-sm md:text-base">Basketball! The Celtics better win this year too.</p>
           </span>
         </a>
         <a href="https://github.com/llpranjal" target="_blank" rel="noopener noreferrer" className="group relative h-fit duration-300 md:hover:scale-100">
-          <img className="w-80 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="src/images/code.png" alt="github" />
+          <img className="w-80 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="/Personal-Portfolio/src/images/code.png" alt="github" />
           <span className="absolute bottom-4 left-4 mr-2 rounded-md bg-black bg-opacity-70 px-4 py-2 text-white shadow-lg">
             <p className="text-sm md:text-base">Check what I&apos;ve been cooking up.</p>
           </span>

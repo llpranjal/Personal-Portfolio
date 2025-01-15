@@ -5,7 +5,7 @@
     "short_desc": "Learn more about UMD App Dev Club!",
     "stacks": ["react.js", "python", "tailwindcss", "data-analysis"],
     "link": "https://appdevclub.com",
-    "card_img_src": "src/images/adc.png",
+    "card_img_src": "/Personal-Portfolio/src/images/adc.png",
     "type": "Website",
     "category": "Experience"
   },
@@ -15,7 +15,7 @@
     "short_desc": "Learn more about data science developments at NIH!",
     "stacks": ["flask", "java-script", "model-deployment"],
     "link": "https://datascience.nih.gov",
-    "card_img_src": "src/images/nih.png",
+    "card_img_src": "/Personal-Portfolio/src/images/nih.png",
     "type": "Website",
     "category": "Experience"
   },
@@ -25,7 +25,7 @@
     "short_desc": "Learn more on how I created my personal website.",
     "stacks": ["react", "tailwind-css", "post-css", "git"],
     "link": "https://github.com/llpranjal/Personal-Portfolio",
-    "card_img_src": "src/images/portfolio.png",
+    "card_img_src": "/Personal-Portfolio/src/images/portfolio.png",
     "type": "Website",
     "category": "Experience"
   },
@@ -35,7 +35,7 @@
     "short_desc": "Full-stack note-taking app with UX in mind.",
     "stacks": ["react", "type-script", "tailwind-css", "postgresql"],
     "link": "https://github.com/llpranjal/notes-app",
-    "card_img_src": "src/images/notes.jpeg",
+    "card_img_src": "/Personal-Portfolio/src/images/notes.jpeg",
     "type": "Website",
     "category": "Side Projects"
   },
@@ -45,7 +45,7 @@
     "short_desc": "Recognize faces and mark attendance.",
     "stacks": ["tensorflow", "opencv", "keras"],
     "link": "https://github.com/llpranjal/Facial-Attendance",
-    "card_img_src": "src/images/facial.png",
+    "card_img_src": "/Personal-Portfolio/src/images/facial.png",
     "type": "Website",
     "category": "Side Projects"
   }
