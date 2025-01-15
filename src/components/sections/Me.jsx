@@ -12,13 +12,13 @@ export default function Me() {
           </span>
         </a>
         <a href="https://www.google.com/search?q=boston+celtics" target="_blank" rel="noopener noreferrer" className="group relative h-fit duration-300 md:hover:scale-100">
-          <img className="w-110 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="/public/celtics.jpg" alt="basketball" />
+          <img className="w-110 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="/public/cel.png" alt="basketball" />
           <span className="absolute bottom-4 left-4 mr-2 rounded-md bg-black bg-opacity-70 px-4 py-2 text-white shadow-lg">
             <p className="text-sm md:text-base">Basketball! The Celtics better win this year too.</p>
           </span>
         </a>
         <a href="https://github.com/llpranjal" target="_blank" rel="noopener noreferrer" className="group relative h-fit duration-300 md:hover:scale-100">
-          <img className="w-80 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="/public/coding.png" alt="github" />
+          <img className="w-80 rounded-md shadow-lg filter duration-200 group-hover:filter-none md:grayscale lg:w-96" src="/public/code.png" alt="github" />
           <span className="absolute bottom-4 left-4 mr-2 rounded-md bg-black bg-opacity-70 px-4 py-2 text-white shadow-lg">
             <p className="text-sm md:text-base">Check what I&apos;ve been cooking up.</p>
           </span>
