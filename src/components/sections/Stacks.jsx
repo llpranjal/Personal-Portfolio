@@ -1,7 +1,7 @@
 import { FaReact, FaNodeJs, FaGithub, FaGitAlt, FaJava, FaPython } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
 import { SiTailwindcss, SiPostgresql, SiTypescript, SiOcaml } from "react-icons/si";
-import cIcon from "/Personal-Portfolio/src/images/c.png";
+import cIcon from "../../images/c.png";
 
 export default function Stacks() {
   const stacks = {
