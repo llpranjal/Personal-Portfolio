@@ -1,0 +1,64 @@
+[
+    {
+      "id": "1",
+      "title": "Software Engineer @ US News and World Report",
+      "short_desc": "Learn more about UMD App Dev Club!",
+      "stacks": ["react.js", "python", "tailwindcss", "data-analysis"],
+      "link": "https://appdevclub.com",
+      "card_img_src": "/adc.png",
+      "type": "Website",
+      "category": "Experience"
+    },
+    {
+      "id": "2",
+      "title": "Data Scientist Intern @ National Institutes of Health",
+      "short_desc": "Learn more about data science developments at NIH!",
+      "stacks": ["flask", "java-script", "model-deployment"],
+      "link": "https://datascience.nih.gov",
+      "card_img_src": "nih.png",
+      "type": "Website",
+      "category": "Experience"
+    },
+    {
+      "id": "3",
+      "title": "Personal Website",
+      "short_desc": "Learn more on how I created my personal website.",
+      "stacks": ["react", "tailwind-css", "post-css", "git"],
+      "link": "https://github.com/llpranjal/Personal-Portfolio",
+      "card_img_src": "portfolio.png",
+      "type": "Website",
+      "category": "Side Projects"
+    },
+    {
+      "id": "4",
+      "title": "Cat Generator",
+      "short_desc": "Generate random cat images (what else do you need?)",
+      "stacks": ["react", "css", "api"],
+      "link": "https://github.com/llpranjal/Cat-Generator",
+      "card_img_src": "blawg.png",
+      "type": "Website",
+      "category": "Side Projects"
+    },
+    {
+      "id": "5",
+      "title": "FlowNote",
+      "short_desc": "Full-stack note-taking app with UX in mind.",
+      "stacks": ["react", "type-script", "tailwind-css", "postgresql"],
+      "link": "https://github.com/llpranjal/notes-app",
+      "card_img_src": "notes.jpeg",
+      "type": "Website",
+      "category": "Side Projects"
+    },
+    {
+      "id": "6",
+      "title": "AI Facial Attendance App",
+      "short_desc": "Recognize faces and mark attendance.",
+      "stacks": ["tensorflow", "opencv", "keras"],
+      "link": "https://github.com/llpranjal/Facial-Attendance",
+      "card_img_src": "facial.png",
+      "type": "Website",
+      "category": "Side Projects"
+    }
+    
+  ]
+  

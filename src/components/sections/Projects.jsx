@@ -1,9 +1,8 @@
-import { FaArrowRightLong } from "react-icons/fa6";
-import projectsData from "../../data/projects.json";
+import projectsData from "../../projects.json";
 import ProjectsCard from "../ProjectsCard";
 
 export default function Projects() {
-  const categoryOrder = ["Business", "Sideproject", "Portfolio", "Design"];
+  const categoryOrder = ["Experience", "Side Projects"];
 
   const groupedProjects = projectsData.reduce((acc, project) => {
     if (!acc[project.category]) {
@@ -14,7 +13,11 @@ export default function Projects() {
   }, {});
 
   for (const category in groupedProjects) {
-    groupedProjects[category].sort((a, b) => b.id - a.id);
+    groupedProjects[category].sort((a, b) => {
+      if (a.title.includes("US News and World Report")) return -1;
+      if (b.title.includes("US News and World Report")) return 1;
+      return b.id - a.id;
+    });
   }
 
   const sortedCategories = categoryOrder.filter((category) => groupedProjects[category]);
@@ -22,8 +25,9 @@ export default function Projects() {
   return (
     <section className="mt-32 flex flex-col justify-center">
       <div className="flex w-full flex-col items-center gap-8 rounded-t-md p-4">
-        <h3 className="text-center font-mono text-4xl font-semibold">Work</h3>
-        <div className="flex flex-col gap-6">
+      <h3 className="text-center font-mono text-5xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-105">
+          Work
+        </h3>        <div className="flex flex-col gap-6">
           {sortedCategories.map((category) => (
             <div key={category} className="w-full">
               <h4 className="mb-4 text-lg italic md:text-xl">{category}</h4>
@@ -36,11 +40,6 @@ export default function Projects() {
           ))}
         </div>
       </div>
-      <a href="https://github.com/Oslonline" className="group mt-4">
-        <p className="flex items-center gap-2 text-center text-sm font-semibold uppercase duration-200 group-hover:gap-4 md:text-start">
-          More on github <FaArrowRightLong />
-        </p>
-      </a>
     </section>
   );
 }

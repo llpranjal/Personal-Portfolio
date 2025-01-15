@@ -1,54 +1,49 @@
-import { FaReact, FaNodeJs, FaPhp, FaGithub, FaGitAlt } from "react-icons/fa";
-import { FaBootstrap, FaSquarespace, FaSymfony, FaVuejs, FaWordpress } from "react-icons/fa6";
+import { FaReact, FaNodeJs, FaGithub, FaGitAlt, FaJava, FaPython } from "react-icons/fa";
 import { FiFigma } from "react-icons/fi";
-import { RiSupabaseLine } from "react-icons/ri";
-import { SiNextdotjs, SiTailwindcss, SiExpress, SiMysql, SiPostgresql, SiMongodb, SiJavascript } from "react-icons/si";
+import { SiTailwindcss, SiPostgresql, SiTypescript, SiOcaml } from "react-icons/si";
+import cIcon from "/c.png";
 
 export default function Stacks() {
   const stacks = {
-    frontend: [
-      { name: "Javascript", icon: <SiJavascript className="h-6 w-6 text-gray-800" /> },
+    langs: [
       { name: "React", icon: <FaReact className="h-6 w-6 text-gray-800" /> },
-      { name: "Next.js", icon: <SiNextdotjs className="h-6 w-6 text-gray-800" /> },
-      { name: "Vue.js", icon: <FaVuejs className="h-6 w-6 text-gray-800" /> },
-      { name: "TailwindCSS", icon: <SiTailwindcss className="h-6 w-6 text-gray-800" /> },
-      { name: "Bootstrap", icon: <FaBootstrap className="h-6 w-6 text-gray-800" /> },
+      { name: "Typescript", icon: <SiTypescript className="h-6 w-6 text-gray-800" /> },
+      { name: "Python", icon: <FaPython className="h-6 w-6 text-gray-800" /> },
+      { name: "C", icon: <img src={cIcon} alt="C" className="h-6 w-6" /> },
+      { name: "Tailwind CSS", icon: <SiTailwindcss className="h-6 w-6 text-gray-800" /> },
+      { name: "Java", icon: <FaJava className="h-6 w-6 text-gray-800" /> },
+      { name: "OCaml", icon: <SiOcaml className="h-6 w-6 text-gray-800" /> },
     ],
     backend: [
       { name: "Node.js", icon: <FaNodeJs className="h-6 w-6 text-gray-800" /> },
-      { name: "Express", icon: <SiExpress className="h-6 w-6 text-gray-800" /> },
-      { name: "PHP", icon: <FaPhp className="h-6 w-6 text-gray-800" /> },
-      { name: "Symfony", icon: <FaSymfony className="h-6 w-6 text-gray-800" /> },
-    ],
-    database: [
-      { name: "MySQL", icon: <SiMysql className="h-6 w-6 text-gray-800" /> },
       { name: "PostgreSQL", icon: <SiPostgresql className="h-6 w-6 text-gray-800" /> },
-      { name: "MongoDB", icon: <SiMongodb className="h-6 w-6 text-gray-800" /> },
-      { name: "Supabase", icon: <RiSupabaseLine className="h-6 w-6 text-gray-800" /> },
     ],
-    cms: [
-      { name: "Wordpress", icon: <FaWordpress className="h-6 w-6 text-gray-800" /> },
-      { name: "Squarespace", icon: <FaSquarespace className="h-6 w-6 text-gray-800" /> },
-    ],
-    other: [
+    misc: [
       { name: "Git", icon: <FaGitAlt className="h-6 w-6 text-gray-800" /> },
-      { name: "Github", icon: <FaGithub className="h-6 w-6 text-gray-800" /> },
+      { name: "GitHub", icon: <FaGithub className="h-6 w-6 text-gray-800" /> },
       { name: "Figma", icon: <FiFigma className="h-6 w-6 text-gray-800" /> },
     ],
   };
 
   return (
-    <section className="flex w-full justify-center py-32 bg-gradient-to-r from-purple-100 via-purple-200 to-purple-300">
-      <div className="w-full max-w-screen-xl">
-        <p className="mb-8 text-center font-mono text-4xl font-semibold text-gray-800">Stacks</p>
-
-        <div className="flex flex-col items-center gap-4 md:gap-8">
+    <section className="flex w-full justify-center py-32 bg-transparent">
+      <div className="w-full max-w-screen-xl px-4">
+        <h3 className="mb-12 text-center font-mono text-5xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-105">
+          Stacks/Tools
+        </h3>
+        <div className="flex flex-col items-center gap-6 md:gap-8">
           {Object.keys(stacks).map((category) => (
-            <div key={category} className="flex flex-wrap justify-center gap-4 md:justify-start">
+            <div
+              key={category}
+              className="flex flex-wrap justify-center gap-4 md:justify-start md:gap-6"
+            >
               {stacks[category].map(({ name, icon }) => (
-                <div key={name} className="flex select-none items-center gap-2 rounded-md bg-gray-50 px-4 py-2 text-center text-lg font-medium shadow-sm">
+                <div
+                  key={name}
+                  className="flex select-none items-center gap-2 rounded-md bg-white border border-black px-3 py-2 text-center text-lg font-medium text-black shadow-md transition-all duration-300 transform hover:-translate-y-1 hover:scale-105 hover:shadow-lg hover:border-2"
+                >
                   {icon}
-                  <span className="text-gray-800">{name}</span>
+                  <span>{name}</span>
                 </div>
               ))}
             </div>
