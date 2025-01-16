@@ -4,8 +4,8 @@ export default function Socials() {
   return (
     <section className="flex w-full justify-center bg-transparent py-20">
       <div className="flex flex-col items-center gap-10">
-        <h3 className="text-center font-mono text-5xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-105">Contact Me</h3>
-        <div className="flex flex-col items-center gap-6">
+      <h3 className="mb-12 text-center font-mono text-6xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-110">Contact Me</h3>
+      <div className="flex flex-col items-center gap-6">
           <div className="flex gap-6">
             <a
               className="group relative flex items-center justify-center rounded-lg border border-black p-2.5 transition-all duration-300 hover:border-2 hover:bg-white hover:shadow-lg"

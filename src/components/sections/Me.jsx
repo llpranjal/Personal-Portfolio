@@ -6,7 +6,7 @@ export default function Me() {
   return (
     <section className="flex flex-col items-center justify-center bg-transparent py-20 text-gray-800">
       <div className="flex w-full flex-col items-center gap-8 rounded-t-md p-4 pb-8">
-        <h3 className="text-center font-mono text-6xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-105">Passions</h3>
+      <h3 className="mb-12 text-center font-mono text-6xl font-bold text-black drop-shadow-lg transition-transform duration-300 hover:scale-110">Passions</h3>
       </div>
       <div className="flex flex-col flex-wrap items-center justify-evenly gap-16 md:flex-row">
         <a href="https://www.chess.com/member/frostbad/" target="_blank" rel="noopener noreferrer" className="group relative h-fit duration-300 md:hover:scale-100">
