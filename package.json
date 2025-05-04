@@ -2,7 +2,7 @@
   "name": "personal-portfolio",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://llpranjal.github.io/personal-portfolio",
+  "homepage": "https://llpranjal.github.io/Personal-Portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
