@@ -5,6 +5,8 @@ import portfolioImage from "../../images/portfolio.png";
 import notesImage from "../../images/notes.jpeg";
 import facialImage from "../../images/facial.png";
 import catImage from "../../images/blawg.png";
+import algoImage from "../../images/algo.png";
+import memoryGameImage from "../../images/memorygame.png";
 
 const projectsData = [
   {
@@ -64,6 +66,26 @@ const projectsData = [
     stacks: ["react", "type-script", "tailwind-css", "postgresql"],
     link: "https://github.com/llpranjal/notes-app",
     card_img_src: notesImage,
+    type: "Website",
+    category: "Side Projects",
+  },
+  {
+    id: "7",
+    title: "Memory Game",
+    short_desc: "React-based memory game with progressive difficulty and lives system.",
+    stacks: ["react", "tailwind-css", "javascript", "animations"],
+    link: "https://github.com/llpranjal/MemoryGame",
+    card_img_src: memoryGameImage,
+    type: "Website",
+    category: "Side Projects",
+  },
+  {
+    id: "8",
+    title: "Sorting Algorithm Visualizer",
+    short_desc: "Visualize classic sorting algorithms with interactive controls.",
+    stacks: ["react", "vite", "javascript", "css"],
+    link: "https://github.com/llpranjal/AlgoVisualizer",
+    card_img_src: algoImage,
     type: "Website",
     category: "Side Projects",
   },
