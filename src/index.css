@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: auto;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: #faf8f5;
+    color: #4a3730;
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+  }
+
+  ::selection {
+    background-color: #a88f6d;
+    color: #faf8f5;
+  }
+
+  /* Cleaner, quieter scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #faf8f5;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d9d3cc;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a88f6d;
+  }
+}
+
+@layer utilities {
+  .perspective {
+    perspective: 1000px;
+  }
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  /* Analog film-grain overlay used across imagery */
+  .grain-overlay {
+    background-image: theme("backgroundImage.grain");
+    mix-blend-mode: overlay;
+  }
+
+  /* Museum-plate duotone treatment so screenshots harmonize with the palette */
+  .duotone {
+    filter: sepia(0.35) contrast(1.02) brightness(0.98) saturate(0.72)
+      hue-rotate(-8deg);
+  }
+}
+
+/* Lenis smooth-scroll base styles */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}

@@ -6,21 +6,35 @@ A modern portfolio website showcasing my professional experience, technical skil
 
 ## Overview
 
-This portfolio website presents my work as a software developer, featuring professional experiences and side projects that demonstrate my technical capabilities and interests.
+This portfolio is a long-form, scroll-driven exhibition of my work — an editorial,
+"quiet luxury" experience inspired by high-end craft brands. It trades the usual
+grid-of-cards layout for a guided journey through seven acts, each with its own
+scroll-based interaction (a veil reveal, a text "patina" fill, a magnifying loupe,
+a pinned gallery, an animated light-path timeline, and a parallax weave grid).
 
-**Key Sections:**
-- Professional Experience
-- Technical Projects
-- Skills & Technologies
-- Personal Interests
+**The Journey (7 Sections):**
+- **The Reveal** — animated hero
+- **The Philosophy** — scroll-synced patina statement
+- **The Craft** — skills shown as inspectable material swatches
+- **The Collection** — a pinned, horizontally-scrolling gallery of selected works
+- **The Journey** — an experience timeline (NIH → U.S. News → Microsoft) with an animated brass light path
+- **Beyond the Screen** — personal interests in a parallax, tilting weave grid
+- **The Seal** — a "hot-stamp" contact call-to-action
 
 ## Technologies Used
 
-- **React 18**
+- **React 18** + **TypeScript**
 - **Vite**
-- **Tailwind CSS** 
-- **Framer Motion**
+- **Tailwind CSS**
+- **Framer Motion** (scroll-driven & micro-interactions)
+- **Lenis** (smooth "weighted" scrolling)
+- **lucide-react** / **react-icons** (iconography)
 - **GitHub Pages**
+
+## Design System
+
+- **Palette:** Oatmeal `#FAF8F5`, Espresso `#4A3730`, Aged Brass `#A88F6D`, Forest `#4C6251`, Taupe `#D9D3CC`
+- **Type:** Playfair Display (serif), Cinzel (display), Lato (sans), JetBrains Mono (annotations)
 
 ## Local Development
 
