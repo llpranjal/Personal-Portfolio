@@ -25,13 +25,13 @@ export const PROFILE: Profile = {
   brand: "PRANJAL",
   name: "Pranjal Kattel",
   role: "Software Engineer",
-  eyebrow: "Software Engineer · Est. 2025 · College Park, MD",
+  eyebrow: "Software Engineer · College Park, MD",
   headline: "Pranjal Kattel",
   location: "College Park, Maryland",
   email: "kattelpranjal01@gmail.com",
   philosophy:
-    "Software built to outlive the trend cycle. Designed to acquire character. The best work is not measured by how new it feels, but by how gracefully it lasts.",
-  philosophyTag: "The Working Philosophy",
+    "I build developer tools, systems projects, and web apps. I like understanding how they work and keeping the design easy to explain.",
+  philosophyTag: "About me",
   socials: [
     {
       name: "GitHub",
@@ -62,7 +62,7 @@ export const SKILLS: SkillSwatch[] = [
     chapter: "The Grain",
     image: leatherTexture,
     description:
-      "The raw material. Typed, compiled, or interpreted — chosen for the problem, not the trend.",
+      "Languages I use for coursework and projects.",
     tools: ["Python", "TypeScript", "JavaScript", "Java", "C", "OCaml"],
   },
   {
@@ -71,7 +71,7 @@ export const SKILLS: SkillSwatch[] = [
     chapter: "The Weave",
     image: linenTexture,
     description:
-      "The surface a person actually touches. Composed, accessible, and quietly considered.",
+      "Tools I use to build web interfaces.",
     tools: ["React", "Tailwind CSS", "Framer Motion", "HTML & CSS", "Figma"],
   },
   {
@@ -80,7 +80,7 @@ export const SKILLS: SkillSwatch[] = [
     chapter: "The Hardware",
     image: brassTexture,
     description:
-      "The structure beneath. Where data is stored, shaped, moved, and made to mean something.",
+      "Tools I use for APIs, databases, and data analysis.",
     tools: ["Node.js", "PostgreSQL", "Flask", "Kusto / ADX", "Git", "GitHub"],
   },
 ];
@@ -91,30 +91,30 @@ export const PROJECTS: Project[] = [
     id: "01",
     title: "FlowNote",
     blurb:
-      "A full-stack note-taking app designed around focus — thoughtful UX, keyboard-first flow, and a persistent backend.",
-    stacks: ["React", "TypeScript", "Tailwind CSS", "PostgreSQL"],
+      "A notes app with a React frontend, an Express API, and PostgreSQL storage. Create, edit, and delete notes.",
+    stacks: ["React", "TypeScript", "Express", "Prisma", "PostgreSQL"],
     link: "https://github.com/llpranjal/notes-app",
     image: notesImage,
     medium: "Full-Stack Application",
-    note: "Made to disappear while you write",
+    note: "Notes stored in PostgreSQL",
   },
   {
     id: "02",
     title: "AI Facial Attendance",
     blurb:
-      "Computer-vision attendance — recognizes faces from a live feed and records presence without a single sign-in sheet.",
+      "A webcam face-recognition project using OpenCV and a saved classifier.",
     stacks: ["TensorFlow", "OpenCV", "Keras"],
     link: "https://github.com/llpranjal/Facial-Attendance",
     image: facialImage,
     medium: "Machine Learning",
-    note: "Trained, not configured",
+    note: "Webcam face recognition",
   },
   {
     id: "03",
     title: "Sorting Visualizer",
     blurb:
-      "Classic sorting algorithms rendered legible — interactive controls to watch order emerge from chaos, step by step.",
-    stacks: ["React", "Vite", "JavaScript"],
+      "A C++ terminal visualizer for merge, quick, heap, and bubble sort, with controls for array size and animation speed.",
+    stacks: ["C++17", "CMake"],
     link: "https://github.com/llpranjal/AlgoVisualizer",
     image: algoImage,
     medium: "Interactive Tool",
@@ -124,7 +124,7 @@ export const PROJECTS: Project[] = [
     id: "04",
     title: "Memory Game",
     blurb:
-      "A progressive memory game with escalating difficulty and a lives system — small, tactile, and satisfying to lose.",
+      "Remember highlighted squares and select them after they disappear. The grid grows as levels increase.",
     stacks: ["React", "Tailwind CSS", "JavaScript"],
     link: "https://github.com/llpranjal/MemoryGame",
     image: memoryGameImage,
@@ -135,23 +135,23 @@ export const PROJECTS: Project[] = [
     id: "05",
     title: "Cat Generator",
     blurb:
-      "A joyful little API playground that conjures an endless supply of cats. What else does one really need?",
+      "A React app that fetches a cat photo when you click a button and adds it to the page.",
     stacks: ["React", "CSS", "APIs"],
     link: "https://github.com/llpranjal/Cat-Generator",
     image: catImage,
     medium: "Experiment",
-    note: "Serious engineering, unserious cats",
+    note: "Photos from The Cat API",
   },
   {
     id: "06",
     title: "This Portfolio",
     blurb:
-      "The site you're reading now — a long-form, scroll-driven exhibition of the work, built the way I like to build.",
+      "My portfolio site with projects, experience, skills, and scroll animations.",
     stacks: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
     link: "https://github.com/llpranjal/Personal-Portfolio",
     image: portfolioImage,
     medium: "Open Source",
-    note: "Crafted transparency",
+    note: "React and TypeScript",
   },
 ];
 
@@ -165,7 +165,7 @@ export const JOURNEY: JourneyStep[] = [
     location: "College Park, MD",
     period: "2022 — 2026",
     description:
-      "Where the grain was set. Studying computer science with a pull toward systems, algorithms, and software that people can actually feel.",
+      "Studying computer science, with an interest in systems and algorithms.",
     monogram: "UMD",
   },
   {
@@ -176,7 +176,7 @@ export const JOURNEY: JourneyStep[] = [
     location: "Bethesda, MD",
     period: "2023",
     description:
-      "Developed and deployed machine-learning models and internal data tooling to support biomedical research at national scale.",
+      "Worked on machine-learning models and data tools for biomedical research.",
     image: nihImage,
     monogram: "NIH",
   },
@@ -188,7 +188,7 @@ export const JOURNEY: JourneyStep[] = [
     location: "Washington, D.C.",
     period: "2024",
     description:
-      "Shipped features and data-analysis tooling across editorial and rankings products relied on by millions of readers each year.",
+      "Worked on software and data-analysis tools for a U.S. News & World Report client project through the App Development Club.",
     image: usnewsImage,
     monogram: "USN",
   },
@@ -200,7 +200,7 @@ export const JOURNEY: JourneyStep[] = [
     location: "Redmond, WA",
     period: "2025",
     description:
-      "Building data-driven tooling that surfaces and prioritizes recurring reliability issues across large-scale storage systems — turning raw signal into decisions.",
+      "Worked on tools for investigating and prioritizing reliability issues.",
     monogram: "MS",
   },
 ];
@@ -237,6 +237,6 @@ export const PASSIONS: Passion[] = [
     caption: "",
     location: "Est. always",
     quote: true,
-    text: "The best things are rarely built on schedule. They're built after hours, one small commit at a time.",
+    text: "I enjoy chess, basketball, and building personal projects.",
   },
 ];
